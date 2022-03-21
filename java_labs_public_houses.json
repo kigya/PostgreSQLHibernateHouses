@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 76542814,
+    "number": 169,
+    "area": 114.720,
+    "floors": 21,
+    "rooms": 10,
+    "street": "12761 3rd Circle",
+    "service_life": 62,
+    "type": "Epoxy Flooring"
+  },
+  {
+    "id": 53751414,
+    "number": 259,
+    "area": 126.000,
+    "floors": 27,
+    "rooms": 9,
+    "street": "79 Summerview Trail",
+    "service_life": 99,
+    "type": "Termite Control"
+  },
+  {
+    "id": 83868725,
+    "number": 39,
+    "area": 264.450,
+    "floors": 10,
+    "rooms": 8,
+    "street": "7587 Schiller Place",
+    "service_life": 92,
+    "type": "Elevator"
+  },
+  {
+    "id": 37976752,
+    "number": 120,
+    "area": 17.330,
+    "floors": 10,
+    "rooms": 10,
+    "street": "2 Morning Plaza",
+    "service_life": 51,
+    "type": "Framing (Steel)"
+  },
+  {
+    "id": 65778706,
+    "number": 27,
+    "area": 307.400,
+    "floors": 9,
+    "rooms": 10,
+    "street": "4 Atwood Way",
+    "service_life": 60,
+    "type": "Curb & Gutter"
+  },
+  {
+    "id": 63115299,
+    "number": 47,
+    "area": 219.140,
+    "floors": 4,
+    "rooms": 5,
+    "street": "2 Warrior Crossing",
+    "service_life": 78,
+    "type": "Marlite Panels (FED)"
+  },
+  {
+    "id": 56970256,
+    "number": 163,
+    "area": 370.660,
+    "floors": 23,
+    "rooms": 4,
+    "street": "563 Crowley Junction",
+    "service_life": 77,
+    "type": "Ornamental Railings"
+  },
+  {
+    "id": 12954545,
+    "number": 69,
+    "area": 263.490,
+    "floors": 26,
+    "rooms": 5,
+    "street": "4269 Dovetail Terrace",
+    "service_life": 69,
+    "type": "Casework"
+  },
+  {
+    "id": 84361665,
+    "number": 184,
+    "area": 472.860,
+    "floors": 16,
+    "rooms": 6,
+    "street": "226 Lake View Crossing",
+    "service_life": 91,
+    "type": "Framing (Steel)"
+  },
+  {
+    "id": 10130983,
+    "number": 191,
+    "area": 211.640,
+    "floors": 4,
+    "rooms": null,
+    "street": "38522 Spaight Place",
+    "service_life": 75,
+    "type": "Roofing (Asphalt)"
+  },
+  {
+    "id": 66085161,
+    "number": 180,
+    "area": 182.630,
+    "floors": 6,
+    "rooms": 6,
+    "street": "854 Grim Trail",
+    "service_life": 84,
+    "type": "Drilled Shafts"
+  },
+  {
+    "id": 13407346,
+    "number": 119,
+    "area": 112.930,
+    "floors": 3,
+    "rooms": null,
+    "street": "78195 Jenifer Junction",
+    "service_life": 50,
+    "type": "Roofing (Asphalt)"
+  },
+  {
+    "id": 7081537,
+    "number": 223,
+    "area": 414.390,
+    "floors": 28,
+    "rooms": 4,
+    "street": "76 Summerview Street",
+    "service_life": 99,
+    "type": "Granite Surfaces"
+  },
+  {
+    "id": 90160964,
+    "number": 40,
+    "area": 446.070,
+    "floors": 2,
+    "rooms": 2,
+    "street": "762 Northland Crossing",
+    "service_life": 85,
+    "type": "Retaining Wall and Brick Pavers"
+  },
+  {
+    "id": 13968220,
+    "number": 190,
+    "area": 73.960,
+    "floors": 27,
+    "rooms": 7,
+    "street": "43 Laurel Alley",
+    "service_life": 85,
+    "type": "Framing (Steel)"
+  },
+  {
+    "id": 31798399,
+    "number": 39,
+    "area": 49.130,
+    "floors": 14,
+    "rooms": 10,
+    "street": "72 Lillian Road",
+    "service_life": 59,
+    "type": "Construction Clean and Final Clean"
+  },
+  {
+    "id": 48551190,
+    "number": 92,
+    "area": 192.600,
+    "floors": 14,
+    "rooms": 9,
+    "street": "0395 Swallow Alley",
+    "service_life": 54,
+    "type": "Wall Protection"
+  },
+  {
+    "id": 83076672,
+    "number": 202,
+    "area": 292.040,
+    "floors": 13,
+    "rooms": null,
+    "street": "2 North Circle",
+    "service_life": 61,
+    "type": "Hard Tile & Stone"
+  },
+  {
+    "id": 465620,
+    "number": 201,
+    "area": 405.780,
+    "floors": 26,
+    "rooms": 7,
+    "street": "74 Manufacturers Center",
+    "service_life": 63,
+    "type": "Exterior Signage"
+  },
+  {
+    "id": 14906683,
+    "number": 72,
+    "area": 23.120,
+    "floors": 30,
+    "rooms": 6,
+    "street": "9596 Park Meadow Crossing",
+    "service_life": 65,
+    "type": "RF Shielding"
+  },
+  {
+    "id": 34170774,
+    "number": 259,
+    "area": 306.810,
+    "floors": 3,
+    "rooms": 6,
+    "street": "941 Pleasure Junction",
+    "service_life": 81,
+    "type": "Plumbing & Medical Gas"
+  },
+  {
+    "id": 90573352,
+    "number": 103,
+    "area": 303.440,
+    "floors": 11,
+    "rooms": 1,
+    "street": "521 Briar Crest Drive",
+    "service_life": 89,
+    "type": "Asphalt Paving"
+  },
+  {
+    "id": 72544396,
+    "number": 199,
+    "area": 489.610,
+    "floors": 9,
+    "rooms": 7,
+    "street": "0 Buena Vista Drive",
+    "service_life": 65,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 61681697,
+    "number": 279,
+    "area": 255.240,
+    "floors": 10,
+    "rooms": 5,
+    "street": "274 Pennsylvania Crossing",
+    "service_life": 55,
+    "type": "Waterproofing & Caulking"
+  },
+  {
+    "id": 91366150,
+    "number": 19,
+    "area": 231.520,
+    "floors": 15,
+    "rooms": 7,
+    "street": "58 Riverside Court",
+    "service_life": 84,
+    "type": "Soft Flooring and Base"
+  },
+  {
+    "id": 99235152,
+    "number": 180,
+    "area": 195.070,
+    "floors": 30,
+    "rooms": null,
+    "street": "065 Anzinger Parkway",
+    "service_life": 88,
+    "type": "Drywall & Acoustical (MOB)"
+  },
+  {
+    "id": 54557968,
+    "number": 139,
+    "area": 139.300,
+    "floors": 15,
+    "rooms": null,
+    "street": "10 Charing Cross Hill",
+    "service_life": 62,
+    "type": "Masonry"
+  },
+  {
+    "id": 25967600,
+    "number": 147,
+    "area": 402.490,
+    "floors": 20,
+    "rooms": 9,
+    "street": "0 Kinsman Junction",
+    "service_life": 53,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 10120053,
+    "number": 90,
+    "area": 394.010,
+    "floors": 13,
+    "rooms": 9,
+    "street": "9826 Drewry Street",
+    "service_life": 65,
+    "type": "Rebar & Wire Mesh Install"
+  },
+  {
+    "id": 82420257,
+    "number": 36,
+    "area": 21.350,
+    "floors": 7,
+    "rooms": 10,
+    "street": "2413 Doe Crossing Lane",
+    "service_life": 77,
+    "type": "Retaining Wall and Brick Pavers"
+  },
+  {
+    "id": 34272617,
+    "number": 197,
+    "area": 28.650,
+    "floors": 26,
+    "rooms": null,
+    "street": "960 Hansons Parkway",
+    "service_life": 91,
+    "type": "Structural & Misc Steel Erection"
+  },
+  {
+    "id": 37275003,
+    "number": 190,
+    "area": 385.060,
+    "floors": 3,
+    "rooms": null,
+    "street": "6344 Barnett Drive",
+    "service_life": 82,
+    "type": "Structural and Misc Steel (Fabrication)"
+  },
+  {
+    "id": 12751320,
+    "number": 140,
+    "area": 350.940,
+    "floors": 18,
+    "rooms": 8,
+    "street": "02 Nobel Junction",
+    "service_life": 86,
+    "type": "Masonry & Precast"
+  },
+  {
+    "id": 60284048,
+    "number": 248,
+    "area": 345.370,
+    "floors": 1,
+    "rooms": null,
+    "street": "5 Basil Alley",
+    "service_life": 74,
+    "type": "Drywall & Acoustical (MOB)"
+  },
+  {
+    "id": 10009794,
+    "number": 22,
+    "area": 321.120,
+    "floors": 29,
+    "rooms": null,
+    "street": "54445 Forest Dale Street",
+    "service_life": 55,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 47544037,
+    "number": 198,
+    "area": 414.310,
+    "floors": 29,
+    "rooms": null,
+    "street": "94 Valley Edge Avenue",
+    "service_life": 91,
+    "type": "Retaining Wall and Brick Pavers"
+  },
+  {
+    "id": 84077482,
+    "number": 245,
+    "area": 33.610,
+    "floors": 24,
+    "rooms": null,
+    "street": "98234 Sugar Center",
+    "service_life": 92,
+    "type": "Construction Clean and Final Clean"
+  },
+  {
+    "id": 41632747,
+    "number": 215,
+    "area": 114.440,
+    "floors": 15,
+    "rooms": null,
+    "street": "1 Hayes Plaza",
+    "service_life": 91,
+    "type": "Termite Control"
+  },
+  {
+    "id": 60136673,
+    "number": 152,
+    "area": 279.740,
+    "floors": 24,
+    "rooms": 4,
+    "street": "40400 Dexter Lane",
+    "service_life": 63,
+    "type": "Painting & Vinyl Wall Covering"
+  },
+  {
+    "id": 82045408,
+    "number": 152,
+    "area": 407.410,
+    "floors": 19,
+    "rooms": 3,
+    "street": "5 Kenwood Place",
+    "service_life": 99,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 61492673,
+    "number": 281,
+    "area": 460.130,
+    "floors": 28,
+    "rooms": 10,
+    "street": "149 Carberry Parkway",
+    "service_life": 93,
+    "type": "Drywall & Acoustical (MOB)"
+  },
+  {
+    "id": 56429737,
+    "number": 3,
+    "area": 261.420,
+    "floors": 13,
+    "rooms": 9,
+    "street": "6760 Parkside Park",
+    "service_life": 75,
+    "type": "Granite Surfaces"
+  },
+  {
+    "id": 80469494,
+    "number": 119,
+    "area": 279.330,
+    "floors": 1,
+    "rooms": 8,
+    "street": "1499 Vera Court",
+    "service_life": 86,
+    "type": "Drilled Shafts"
+  },
+  {
+    "id": 86140438,
+    "number": 160,
+    "area": 229.840,
+    "floors": 22,
+    "rooms": 9,
+    "street": "761 Michigan Place",
+    "service_life": 96,
+    "type": "Curb & Gutter"
+  },
+  {
+    "id": 94355311,
+    "number": 70,
+    "area": 311.740,
+    "floors": 30,
+    "rooms": 1,
+    "street": "45 Forster Trail",
+    "service_life": 68,
+    "type": "Granite Surfaces"
+  },
+  {
+    "id": 11466435,
+    "number": 128,
+    "area": 89.860,
+    "floors": 19,
+    "rooms": 6,
+    "street": "1 Sage Circle",
+    "service_life": 71,
+    "type": "Termite Control"
+  },
+  {
+    "id": 55730720,
+    "number": 286,
+    "area": 390.190,
+    "floors": 26,
+    "rooms": 1,
+    "street": "9 Utah Hill",
+    "service_life": 55,
+    "type": "Site Furnishings"
+  },
+  {
+    "id": 48968262,
+    "number": 199,
+    "area": 221.470,
+    "floors": 29,
+    "rooms": 1,
+    "street": "50259 Hooker Junction",
+    "service_life": 84,
+    "type": "Retaining Wall and Brick Pavers"
+  },
+  {
+    "id": 23350250,
+    "number": 231,
+    "area": 317.330,
+    "floors": 7,
+    "rooms": 8,
+    "street": "38020 East Alley",
+    "service_life": 54,
+    "type": "Curb & Gutter"
+  },
+  {
+    "id": 1523602,
+    "number": 191,
+    "area": 313.980,
+    "floors": 13,
+    "rooms": null,
+    "street": "7 Pepper Wood Junction",
+    "service_life": 58,
+    "type": "RF Shielding"
+  },
+  {
+    "id": 10577228,
+    "number": 291,
+    "area": 323.100,
+    "floors": 10,
+    "rooms": 4,
+    "street": "560 Forest Pass",
+    "service_life": 53,
+    "type": "Asphalt Paving"
+  },
+  {
+    "id": 8966213,
+    "number": 45,
+    "area": 50.130,
+    "floors": 29,
+    "rooms": 5,
+    "street": "01409 Farwell Road",
+    "service_life": 50,
+    "type": "Masonry & Precast"
+  },
+  {
+    "id": 49731757,
+    "number": 81,
+    "area": 146.180,
+    "floors": 8,
+    "rooms": 7,
+    "street": "70169 Bluestem Hill",
+    "service_life": 56,
+    "type": "Roofing (Asphalt)"
+  },
+  {
+    "id": 78949457,
+    "number": 29,
+    "area": 268.580,
+    "floors": 27,
+    "rooms": 8,
+    "street": "1 Truax Road",
+    "service_life": 62,
+    "type": "Electrical"
+  },
+  {
+    "id": 63576729,
+    "number": 132,
+    "area": 341.530,
+    "floors": 9,
+    "rooms": null,
+    "street": "261 Heffernan Street",
+    "service_life": 59,
+    "type": "Structural & Misc Steel Erection"
+  },
+  {
+    "id": 82172345,
+    "number": 273,
+    "area": 383.390,
+    "floors": 9,
+    "rooms": null,
+    "street": "6 Hayes Terrace",
+    "service_life": 83,
+    "type": "Marlite Panels (FED)"
+  },
+  {
+    "id": 84387421,
+    "number": 82,
+    "area": 327.930,
+    "floors": 10,
+    "rooms": 4,
+    "street": "756 Kenwood Lane",
+    "service_life": 89,
+    "type": "Construction Clean and Final Clean"
+  },
+  {
+    "id": 43595648,
+    "number": 14,
+    "area": 303.360,
+    "floors": 26,
+    "rooms": 6,
+    "street": "20 Maple Pass",
+    "service_life": 74,
+    "type": "Masonry & Precast"
+  },
+  {
+    "id": 51355992,
+    "number": 159,
+    "area": 222.740,
+    "floors": 5,
+    "rooms": 5,
+    "street": "564 Hermina Plaza",
+    "service_life": 85,
+    "type": "Electrical and Fire Alarm"
+  },
+  {
+    "id": 19372851,
+    "number": 295,
+    "area": 73.330,
+    "floors": 12,
+    "rooms": null,
+    "street": "92 Springs Parkway",
+    "service_life": 60,
+    "type": "Doors, Frames & Hardware"
+  },
+  {
+    "id": 40774359,
+    "number": 56,
+    "area": 143.160,
+    "floors": 10,
+    "rooms": 7,
+    "street": "33887 Nancy Hill",
+    "service_life": 97,
+    "type": "Soft Flooring and Base"
+  },
+  {
+    "id": 77512735,
+    "number": 118,
+    "area": 40.690,
+    "floors": 1,
+    "rooms": 7,
+    "street": "98215 Sachs Street",
+    "service_life": 97,
+    "type": "Drywall & Acoustical (MOB)"
+  },
+  {
+    "id": 93312693,
+    "number": 27,
+    "area": 16.080,
+    "floors": 16,
+    "rooms": 3,
+    "street": "30 East Crossing",
+    "service_life": 65,
+    "type": "Epoxy Flooring"
+  },
+  {
+    "id": 96700998,
+    "number": 206,
+    "area": 72.680,
+    "floors": 14,
+    "rooms": 6,
+    "street": "78 Hollow Ridge Crossing",
+    "service_life": 60,
+    "type": "Landscaping & Irrigation"
+  },
+  {
+    "id": 46563703,
+    "number": 219,
+    "area": 368.420,
+    "floors": 26,
+    "rooms": 6,
+    "street": "50 Wayridge Avenue",
+    "service_life": 78,
+    "type": "EIFS"
+  },
+  {
+    "id": 855932,
+    "number": 23,
+    "area": 61.900,
+    "floors": 9,
+    "rooms": 6,
+    "street": "4311 East Lane",
+    "service_life": 51,
+    "type": "Glass & Glazing"
+  },
+  {
+    "id": 18143539,
+    "number": 142,
+    "area": 365.830,
+    "floors": 8,
+    "rooms": null,
+    "street": "67 Cardinal Crossing",
+    "service_life": 59,
+    "type": "Soft Flooring and Base"
+  },
+  {
+    "id": 52972755,
+    "number": 33,
+    "area": 362.950,
+    "floors": 26,
+    "rooms": 8,
+    "street": "800 Harper Plaza",
+    "service_life": 63,
+    "type": "Exterior Signage"
+  },
+  {
+    "id": 23629609,
+    "number": 26,
+    "area": 344.460,
+    "floors": 12,
+    "rooms": null,
+    "street": "39 Esch Drive",
+    "service_life": 78,
+    "type": "HVAC"
+  },
+  {
+    "id": 82420032,
+    "number": 44,
+    "area": 70.860,
+    "floors": 2,
+    "rooms": 6,
+    "street": "697 Fremont Plaza",
+    "service_life": 99,
+    "type": "Electrical"
+  },
+  {
+    "id": 80332079,
+    "number": 272,
+    "area": 216.810,
+    "floors": 24,
+    "rooms": 2,
+    "street": "4 Aberg Road",
+    "service_life": 55,
+    "type": "Prefabricated Aluminum Metal Canopies"
+  },
+  {
+    "id": 69025744,
+    "number": 132,
+    "area": 388.810,
+    "floors": 24,
+    "rooms": 7,
+    "street": "51527 Artisan Point",
+    "service_life": 62,
+    "type": "Casework"
+  },
+  {
+    "id": 34769360,
+    "number": 62,
+    "area": 160.970,
+    "floors": 13,
+    "rooms": null,
+    "street": "5832 Oakridge Avenue",
+    "service_life": 56,
+    "type": "Glass & Glazing"
+  },
+  {
+    "id": 95236618,
+    "number": 68,
+    "area": 60.330,
+    "floors": 8,
+    "rooms": 10,
+    "street": "8376 Carioca Circle",
+    "service_life": 68,
+    "type": "Fire Protection"
+  },
+  {
+    "id": 96064832,
+    "number": 285,
+    "area": 312.050,
+    "floors": 9,
+    "rooms": null,
+    "street": "0161 Fieldstone Point",
+    "service_life": 93,
+    "type": "Rebar & Wire Mesh Install"
+  },
+  {
+    "id": 63024166,
+    "number": 154,
+    "area": 171.040,
+    "floors": 6,
+    "rooms": 2,
+    "street": "84 Monica Pass",
+    "service_life": 68,
+    "type": "Structural and Misc Steel (Fabrication)"
+  },
+  {
+    "id": 24078287,
+    "number": 32,
+    "area": 327.650,
+    "floors": 11,
+    "rooms": 10,
+    "street": "28643 Homewood Street",
+    "service_life": 67,
+    "type": "Fire Protection"
+  },
+  {
+    "id": 59863525,
+    "number": 170,
+    "area": 168.580,
+    "floors": 17,
+    "rooms": 5,
+    "street": "5 Briar Crest Avenue",
+    "service_life": 58,
+    "type": "Fire Sprinkler System"
+  },
+  {
+    "id": 40510809,
+    "number": 272,
+    "area": 167.770,
+    "floors": 6,
+    "rooms": 6,
+    "street": "2 Mendota Terrace",
+    "service_life": 71,
+    "type": "Masonry & Precast"
+  },
+  {
+    "id": 5161742,
+    "number": 101,
+    "area": 73.680,
+    "floors": 25,
+    "rooms": 5,
+    "street": "1 Truax Park",
+    "service_life": 92,
+    "type": "EIFS"
+  },
+  {
+    "id": 22584595,
+    "number": 235,
+    "area": 67.030,
+    "floors": 27,
+    "rooms": 1,
+    "street": "2 Anderson Terrace",
+    "service_life": 62,
+    "type": "RF Shielding"
+  },
+  {
+    "id": 64481660,
+    "number": 279,
+    "area": 476.720,
+    "floors": 10,
+    "rooms": null,
+    "street": "5 Manitowish Alley",
+    "service_life": 72,
+    "type": "HVAC"
+  },
+  {
+    "id": 39124462,
+    "number": 189,
+    "area": 163.520,
+    "floors": 1,
+    "rooms": 2,
+    "street": "4 Drewry Road",
+    "service_life": 90,
+    "type": "Soft Flooring and Base"
+  },
+  {
+    "id": 59081259,
+    "number": 81,
+    "area": 28.550,
+    "floors": 2,
+    "rooms": 4,
+    "street": "1 Forest Dale Park",
+    "service_life": 70,
+    "type": "Exterior Signage"
+  },
+  {
+    "id": 34304532,
+    "number": 157,
+    "area": 474.520,
+    "floors": 2,
+    "rooms": 4,
+    "street": "3916 Sunfield Pass",
+    "service_life": 96,
+    "type": "Roofing (Asphalt)"
+  },
+  {
+    "id": 78789843,
+    "number": 37,
+    "area": 102.080,
+    "floors": 25,
+    "rooms": 4,
+    "street": "99117 Londonderry Street",
+    "service_life": 66,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 25408959,
+    "number": 228,
+    "area": 318.070,
+    "floors": 22,
+    "rooms": null,
+    "street": "779 Sutteridge Circle",
+    "service_life": 72,
+    "type": "HVAC"
+  },
+  {
+    "id": 69640896,
+    "number": 146,
+    "area": 224.330,
+    "floors": 4,
+    "rooms": 1,
+    "street": "23892 Eagle Crest Crossing",
+    "service_life": 73,
+    "type": "Drilled Shafts"
+  },
+  {
+    "id": 90728508,
+    "number": 169,
+    "area": 195.800,
+    "floors": 2,
+    "rooms": null,
+    "street": "06198 Roth Road",
+    "service_life": 99,
+    "type": "Overhead Doors"
+  },
+  {
+    "id": 32029427,
+    "number": 244,
+    "area": 377.200,
+    "floors": 1,
+    "rooms": 7,
+    "street": "3916 Scofield Way",
+    "service_life": 79,
+    "type": "Casework"
+  },
+  {
+    "id": 11075767,
+    "number": 124,
+    "area": 478.300,
+    "floors": 29,
+    "rooms": 3,
+    "street": "5 Darwin Trail",
+    "service_life": 57,
+    "type": "RF Shielding"
+  },
+  {
+    "id": 35115592,
+    "number": 137,
+    "area": 381.920,
+    "floors": 16,
+    "rooms": 9,
+    "street": "25 Fordem Junction",
+    "service_life": 98,
+    "type": "Elevator"
+  },
+  {
+    "id": 40404968,
+    "number": 158,
+    "area": 421.560,
+    "floors": 19,
+    "rooms": 3,
+    "street": "830 Sycamore Place",
+    "service_life": 82,
+    "type": "Masonry"
+  },
+  {
+    "id": 30871282,
+    "number": 97,
+    "area": 427.520,
+    "floors": 5,
+    "rooms": null,
+    "street": "0 Morning Circle",
+    "service_life": 74,
+    "type": "RF Shielding"
+  },
+  {
+    "id": 66125168,
+    "number": 251,
+    "area": 477.080,
+    "floors": 12,
+    "rooms": 3,
+    "street": "374 Randy Crossing",
+    "service_life": 93,
+    "type": "EIFS"
+  },
+  {
+    "id": 5134059,
+    "number": 256,
+    "area": 29.610,
+    "floors": 21,
+    "rooms": 2,
+    "street": "8 Paget Way",
+    "service_life": 96,
+    "type": "Casework"
+  },
+  {
+    "id": 79132956,
+    "number": 245,
+    "area": 74.980,
+    "floors": 21,
+    "rooms": 7,
+    "street": "68404 Trailsway Court",
+    "service_life": 89,
+    "type": "Landscaping & Irrigation"
+  },
+  {
+    "id": 41579528,
+    "number": 21,
+    "area": 74.690,
+    "floors": 11,
+    "rooms": null,
+    "street": "41640 Iowa Lane",
+    "service_life": 54,
+    "type": "Framing (Wood)"
+  },
+  {
+    "id": 21054950,
+    "number": 299,
+    "area": 277.940,
+    "floors": 13,
+    "rooms": null,
+    "street": "0 Kenwood Court",
+    "service_life": 83,
+    "type": "Masonry"
+  },
+  {
+    "id": 76892961,
+    "number": 93,
+    "area": 436.160,
+    "floors": 14,
+    "rooms": null,
+    "street": "007 Nancy Avenue",
+    "service_life": 87,
+    "type": "Electrical and Fire Alarm"
+  }
+]

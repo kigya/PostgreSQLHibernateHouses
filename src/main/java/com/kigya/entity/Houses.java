@@ -144,15 +144,15 @@ public class Houses implements Serializable, Cloneable, Comparable<Houses> {
 
     @Override
     public String toString() {
-        return "Houses{" +
+        return "\n\nHouses{" +
                 "id=" + id +
-                ", number=" + number +
-                ", area=" + area +
-                ", floors=" + floors +
-                ", rooms=" + rooms +
-                ", street='" + street + '\'' +
-                ", serviceLife=" + serviceLife +
-                ", type='" + type + '\'' +
+                ", \n number=" + number +
+                ", \n area=" + area +
+                ", \n floors=" + floors +
+                ", \n rooms=" + rooms +
+                ", \n street='" + street + '\'' +
+                ", \n serviceLife=" + serviceLife +
+                ", \n type='" + type + '\'' +
                 '}';
     }
 

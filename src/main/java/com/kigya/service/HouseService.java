@@ -1,5 +1,9 @@
 package com.kigya.service;
 
-public interface HouseService {
+import com.kigya.entity.Houses;
 
+import java.util.List;
+
+public interface HouseService {
+    List<Houses> findAll();
 }

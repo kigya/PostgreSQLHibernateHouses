@@ -1,19 +1,18 @@
 package com.kigya.entity;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.kigya.exception.*;
+import com.kigya.valid.*;
+import lombok.*;
+import org.jetbrains.annotations.NotNull;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Getter
-@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-public class Houses {
+public class Houses implements Serializable, Cloneable, Comparable<Houses> {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
@@ -26,14 +25,14 @@ public class Houses {
 
     @Basic
     @Column(name = "area", nullable = false, precision = 3)
-    private BigDecimal area;
+    private Double area;
 
     @Basic
     @Column(name = "floors", nullable = false)
     private short floors;
 
     @Basic
-    @Column(name = "rooms", nullable = true)
+    @Column(name = "rooms")
     private Short rooms;
 
     @Basic
@@ -47,6 +46,90 @@ public class Houses {
     @Basic
     @Column(name = "type", nullable = false, length = 50)
     private String type;
+
+    public Houses(short number, Double area, short floors,
+                  Short rooms, String street, short serviceLife, String type) {
+        setNumber(number);
+        setArea(area);
+        setFloors(floors);
+        setRooms(rooms);
+        setStreet(street);
+        setServiceLife(serviceLife);
+        setType(type);
+    }
+
+    public Houses(short number, Double area, short floors,
+                  String street, short serviceLife, String type) {
+        setNumber(number);
+        setArea(area);
+        setFloors(floors);
+        setStreet(street);
+        setServiceLife(serviceLife);
+        setType(type);
+    }
+
+    @SneakyThrows
+    public void setNumber(short number) {
+        if (ValidNumber.isValidNumber(number)) {
+            this.number = number;
+        } else {
+            throw new HouseNumberException("Incorrect house number!");
+        }
+    }
+
+    @SneakyThrows
+    public void setArea(Double area) {
+        if (ValidArea.isValidArea(area)) {
+            this.area = area;
+        } else {
+            throw new HouseAreaException("Incorrect house area!");
+        }
+    }
+
+    @SneakyThrows
+    public void setFloors(short floors) {
+        if (ValidFloors.isValidFloors(floors)) {
+            this.floors = floors;
+        } else {
+            throw new HouseFloorsException("Incorrect house floors!");
+        }
+    }
+
+    @SneakyThrows
+    public void setRooms(Short rooms) {
+        if (ValidRooms.isValidRooms(rooms)) {
+            this.rooms = rooms;
+        } else {
+            throw new HouseRoomsException("Incorrect house rooms!");
+        }
+    }
+
+    @SneakyThrows
+    public void setStreet(String street) {
+        if (ValidStreet.isValidStreet(street)) {
+            this.street = street;
+        } else {
+            throw new HouseStreetException("Incorrect house street!");
+        }
+    }
+
+    @SneakyThrows
+    public void setServiceLife(short serviceLife) {
+        if (ValidServiceLife.isValidServiceLife(serviceLife)) {
+            this.serviceLife = serviceLife;
+        } else {
+            throw new HouseServiceLifeException("Incorrect house service life!");
+        }
+    }
+
+    @SneakyThrows
+    public void setType(String type) {
+        if (ValidType.isValidType(type)) {
+            this.type = type;
+        } else {
+            throw new HouseTypeException("Incorrect house type!");
+        }
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -77,5 +160,19 @@ public class Houses {
     public int hashCode() {
         return Objects.hash(id, number, area, floors, rooms,
                 street, serviceLife, type);
+    }
+
+    @Override
+    public Houses clone() {
+        try {
+            return (Houses) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
+
+    @Override
+    public int compareTo(@NotNull Houses o) {
+        return (int) (this.id - o.getId());
     }
 }

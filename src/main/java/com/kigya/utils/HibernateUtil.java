@@ -2,22 +2,25 @@ package com.kigya.utils;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import java.io.File;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @NoArgsConstructor (access = AccessLevel.PRIVATE)
+@Log4j2
 public class HibernateUtil {
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
     private static SessionFactory buildSessionFactory() {
+        String path = "/Users/kirillborichevskiy/Desktop/HouseStreamAPI/src/main/resources/hibernate.cfg.xml";
         try {
             return new Configuration()
-                    .configure(new File("/Users/kirillborichevskiy/Desktop/HouseStreamAPI/src/main/resources/hibernate.cfg.xml"))
+                    .configure(new File(path))
                     .buildSessionFactory();
-        } catch (Throwable ex) {
-            System.err.println("Initial Session Factory creation failed" + ex);
+        } catch (ExceptionInInitializerError ex) {
+            log.error("Initial Session Factory creation failed" + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }

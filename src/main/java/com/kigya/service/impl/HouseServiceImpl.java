@@ -1,13 +1,16 @@
 package com.kigya.service.impl;
 
-import com.kigya.entity.House;
+import com.kigya.entity.Houses;
 import com.kigya.repository.HouseRepository;
+import com.kigya.service.HouseService;
 
 import java.util.List;
 
-public class HouseServiceImpl {
+public class HouseServiceImpl implements HouseService {
     HouseRepository repository = new HouseRepository();
-    public List<House> findAll() {
-        return repository.selectAll();
+
+    @Override
+    public List<Houses> findAll() {
+        return repository.findAll();
     }
 }

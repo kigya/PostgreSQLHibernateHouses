@@ -1,31 +1,42 @@
 package com.kigya.repository;
 
-import com.kigya.entity.House;
+import com.kigya.entity.Houses;
 import com.kigya.exception.RepositoryException;
 import com.kigya.utils.HibernateUtil;
 import lombok.SneakyThrows;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
+import org.hibernate.Transaction;
 
 
-import java.util.ArrayList;
+import javax.persistence.Lob;
+import javax.persistence.Transient;
 import java.util.List;
 
 public class HouseRepository {
+
     @SneakyThrows
-    public List<House> selectAll() {
-        List<House> house = new ArrayList<>();
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
-            session.getTransaction().begin();
-            CriteriaBuilder builder = session.getCriteriaBuilder();
-            CriteriaQuery<House> criteria = builder.createQuery(House.class);
-            criteria.from(House.class);
-            List<House> houses = session.createQuery(criteria).getResultList();
-            return houses;
+    @Transient
+    @Lob
+    public List<Houses> findAll() {
+        Transaction tx = null;
+        Session session =
+                HibernateUtil.getSessionFactory().openSession();
+        List<Houses> houses;
+        try {
+            tx = session.beginTransaction();
+            houses = session.createQuery("FROM Houses").list();
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            throw new RepositoryException(e, "Initialization transaction error!");
+        } catch (Exception e) {
+            throw new RepositoryException(e, "House Repository error!");
+        } finally {
+            session.close();
         }
-        catch (Exception ex) {
-            throw new RepositoryException(ex, "Error occured while selecting all");
-        }
+        return houses;
     }
 }

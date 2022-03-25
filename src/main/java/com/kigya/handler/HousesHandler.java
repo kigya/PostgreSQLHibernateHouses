@@ -41,7 +41,7 @@ public class HousesHandler {
 
         StringBuilder str = new StringBuilder();
         for (Houses house : houses) {
-            if (house.getRooms() != null && house.getRooms() == rooms) {
+            if (house.rooms() != null && house.rooms() == rooms) {
                 str.append(house);
             }
         }
@@ -62,7 +62,7 @@ public class HousesHandler {
 
         String str = houses
                 .stream()
-                .filter(house -> house.getRooms() != null && house.getRooms() == rooms)
+                .filter(house -> house.rooms() != null && house.rooms() == rooms)
                 .map(String::valueOf).collect(Collectors.joining());
 
         try (BufferedWriter writer =
@@ -81,11 +81,11 @@ public class HousesHandler {
 
         String str = houses
                 .stream()
-                .filter(house -> house.getRooms() != null &&
-                        house.getRooms() == rooms &&
-                rangeFloor
-                        .contains((int) house
-                                .getFloors()))
+                .filter(house -> house.rooms() != null &&
+                        house.rooms() == rooms &&
+                        rangeFloor
+                                .contains((int) house
+                                        .floors()))
                 .map(String::valueOf)
                 .collect(Collectors.joining());
 
@@ -106,8 +106,8 @@ public class HousesHandler {
         StringBuilder str = new StringBuilder();
 
         for (Houses house : houses) {
-            if (house.getRooms() != null && house.getRooms() == rooms &&
-                    rangeFloor.contains((int) house.getFloors())) {
+            if (house.rooms() != null && house.rooms() == rooms &&
+                    rangeFloor.contains((int) house.floors())) {
                 str.append(house);
             }
         }
@@ -128,7 +128,7 @@ public class HousesHandler {
         StringBuilder str = new StringBuilder();
 
         for (Houses house : houses) {
-            if (house.getArea() >= area) {
+            if (house.area() >= area) {
                 str.append(house);
             }
         }
@@ -149,7 +149,7 @@ public class HousesHandler {
 
         String str = houses.
                 stream()
-                .filter(house -> house.getArea() >= area)
+                .filter(house -> house.area() >= area)
                 .map(String::valueOf).collect(Collectors.joining());
 
         try (BufferedWriter writer =
@@ -161,6 +161,12 @@ public class HousesHandler {
         }
 
         log.info("Current database contents filtered by area Stream API saved to file");
+    }
+
+    public static void addNewHouse() {
+        Houses house = new Houses((short) 12, 84.12, (short) 4, (short) 5,
+                "34 Groove Street", (short) 80, "Bricks House");
+        service.addItem(house);
     }
 }
 

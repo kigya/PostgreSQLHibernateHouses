@@ -13,4 +13,9 @@ public class HouseServiceImpl implements HouseService {
     public List<Houses> findAll() {
         return repository.findAll();
     }
+
+    @Override
+    public void addItem(Houses house) {
+        repository.addItem(house);
+    }
 }

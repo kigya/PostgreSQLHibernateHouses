@@ -8,6 +8,7 @@ import org.apache.commons.lang3.Range;
 public class Main {
 
     public static void main(String[] args) {
+        HousesHandler.addNewHouse();
         HousesHandler.saveToFileCurrentDatabase();
         HousesHandler.saveToFileFilteredByRooms(9);
         HousesHandler.saveToFileFilteredByRoomsStreamAPI(9);

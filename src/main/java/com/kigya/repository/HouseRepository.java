@@ -39,4 +39,22 @@ public class HouseRepository {
         }
         return houses;
     }
+
+    @SneakyThrows
+    public void addItem(Houses house) {
+        Transaction tx = null;
+
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            tx = session.beginTransaction();
+            session.save(house);
+            session.getTransaction().commit();
+        } catch (HibernateException e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            throw new RepositoryException(e, "Initialization transaction error!");
+        } catch (Exception e) {
+            throw new RepositoryException(e, "House Repository error!");
+        }
+    }
 }

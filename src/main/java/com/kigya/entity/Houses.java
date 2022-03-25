@@ -3,14 +3,19 @@ package com.kigya.entity;
 import com.kigya.exception.*;
 import com.kigya.valid.*;
 import lombok.*;
+import lombok.experimental.Accessors;
 import org.jetbrains.annotations.NotNull;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
+
 @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Builder
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@AllArgsConstructor(access = AccessLevel.PUBLIC)
+@Accessors(fluent = true)
 @Entity
 public class Houses implements Serializable, Cloneable, Comparable<Houses> {
 
@@ -173,6 +178,6 @@ public class Houses implements Serializable, Cloneable, Comparable<Houses> {
 
     @Override
     public int compareTo(@NotNull Houses o) {
-        return (int) (this.id - o.getId());
+        return (int) (this.id - o.id());
     }
 }
